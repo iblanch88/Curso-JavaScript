@@ -36,11 +36,4 @@ while(texto != "FIN") {
  console.log("GRACIAS POR SU VISITA")
 
 
-/*let numero = parseInt (prompt("Ingrese un numero:"))
-
-for (let i=0; i<=numero; i++ ){
-    let suma = numero + i
-    console.log(suma)
-}*/
-
   

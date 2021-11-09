@@ -4,23 +4,23 @@ while(texto != "fin") {
     switch(texto) {
 
         case "manzana" :
-            console.log("El kilo de Manzanas $150")
+            console.log("El kilo de Manzanas - $150")
         break;
 
         case "banana" :
-             console.log("Promoción 2 Kg de $200")
+             console.log("Promoción 2 Kg - $200")
         break;
 
         case "pera":
-            console.log("El kilo de Pera  $120")
+            console.log("El kilo de Pera - $120")
         break;
 
         case "sandia" :
-            console.log("El kilo de Sandia  $100")
+            console.log("El kilo de Sandia - $100")
         break;
 
         case "frutilla" :
-            console.log("SUPER PROMO: 2 KG de FRUTILLA  $450")
+            console.log("SUPER PROMO: 2 KG de FRUTILLA - $450")
         break;
         
         default:
@@ -29,7 +29,7 @@ while(texto != "fin") {
         
     }
 
-     texto = prompt("INGRESE OTRA FRUTA:")
+     texto = prompt("Ingrese otra fruta o 'fin' para terminar:")
 
 
 }

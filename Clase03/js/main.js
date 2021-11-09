@@ -1,35 +1,35 @@
-let texto = prompt("INGRESE UNA FRUTA:");
+texto = prompt("INGRESE UNA FRUTA:");
 
-while(texto != "FIN") {
+while(texto != "fin") {
     switch(texto) {
 
-        case "MANZANA" :
-            console.log("El kilo de Manzanas esta $150")
+        case "manzana" :
+            console.log("El kilo de Manzanas $150")
         break;
 
-        case "BANANA" :
+        case "banana" :
              console.log("Promoción 2 Kg de $200")
         break;
 
-        case "PERA":
-            console.log("El kilo de Pera está $120")
+        case "pera":
+            console.log("El kilo de Pera  $120")
         break;
 
-        case "SANDIA" :
-            console.log("El kilo de Sandía está $100")
+        case "sandia" :
+            console.log("El kilo de Sandia  $100")
         break;
 
-        case "FRUTILLA" :
-            console.log("SUPER PROMO: 2 KG de FRUTILLA está $450")
+        case "frutilla" :
+            console.log("SUPER PROMO: 2 KG de FRUTILLA  $450")
         break;
         
         default:
-            console.log ("NO TENEMOS" + texto)
+            console.log ("NO TENEMOS " + texto)
             break;
         
     }
 
-    let texto = prompt("INGRESE OTRA FRUTA:")
+     texto = prompt("INGRESE OTRA FRUTA:")
 
 
 }

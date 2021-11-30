@@ -6,7 +6,7 @@ localStorage.setItem ("nombreusuario", nombreusuario)
 
 let biendenida = document.getElementById ("bienvenida")
  bienvenida.innerHTML = `<h3>Bienvenido: ${nombreusuario}</h3>`;
-
+const carrito 
 const vinos = [
          {id:1 , marca: "Fabre Montayou", tipo: "Tinto", varietal: "Cabernet Franc", precio: 600, img:"https://www.espaciovino.com.ar/media/default/0001/55/thumb_54558_default_medium.jpeg" },
          {id:2 , marca: "Trumpeter", tipo: "Tinto", varietal: "Malbec", precio:700, img: "https://cepadevinos.com/wp-content/uploads/2017/07/Trumpeter_Malbec_p7xpdj.jpg"  },
@@ -18,10 +18,12 @@ const vinos = [
          {id:8 , marca: "Dv Catena", tipo: "Tinto", varietal: "Blend", precio:680, img: "https://http2.mlstatic.com/D_NQ_NP_906334-MLA32374805116_092019-O.jpg" }
 ];
 
+
 for (const vino of vinos) {
       let contenedor = document.createElement("div")
 
       contenedor.innerHTML = `
+      <div class="single-product">
       <h3> ID: ${vino.id} </h3>
       <img src="${vino.img}" width= "150px"> 
       <p> <b>Marca:</b> ${vino.marca}</p>
@@ -30,6 +32,7 @@ for (const vino of vinos) {
       <b> $ ${vino.precio} </b>
       <button> Agregar al carrito 🛒</button>
       <hr> 
+      <div class="single-product">
       `
       ;
                 
